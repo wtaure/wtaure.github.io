@@ -1,0 +1,367 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	background:rgba(30, 30, 34, 0.1);
+	
+}
+
+#con {
+	width: auto; /*容器高度/宽比*/
+	margin:0px auto;
+}
+
+#nav{
+	
+	
+	padding: 0px;
+/*	margin-top: 0px;*/
+
+	background-size: 100%;
+	width: 100%;
+}
+
+#nav li{
+
+padding: 15px 20px 17px 20px;
+/*color: white;text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;*/
+
+}
+
+#nav .nav{
+	/*	margin-top: 0px;*/	
+		background-color: rgba(14, 14, 19, 0.73);
+		height: 60px;
+		border-bottom: solid 3px white;
+		box-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+		
+}
+
+#nav ul li a{
+	display: block;
+	color: white;
+	text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+	
+}
+
+#nav ul li a:link,#nav ul li a:visited{
+	display: block;
+	/*line-height: 40px;
+	background: #FF0000;
+	text-decoration: none;
+	text-indent: 5px;*/
+	
+	
+}
+
+#nav ul li:hover{/*鼠标移动到标签上的字体动态变化*/
+	text-align: center;
+	display: block;
+	background-color:rgba(142,142,142,0.5);
+
+	
+
+}
+
+
+
+#nav ul{
+margin: 0px;
+padding: 0px;
+
+}
+/*#nav ul li{
+float:left ;
+list-style: none;
+text-align:center;
+padding: 5px 10px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+}*/
+
+
+
+
+
+#navleft{
+float: left;
+	
+}
+
+#navleft ul{
+	list-style: none;
+	padding-top: 0px;
+	margin: 0px 0px 10px 230px;
+	padding: 0px;
+	
+}
+#navleft li{
+	float: left;
+	
+}
+
+#navleft li ul li{
+	float: none;
+	
+	
+}
+#navleft li ul {
+	
+	
+}
+
+#navleft ul li a{
+	text-decoration: none;
+	float: left;
+		
+	
+}
+#navright{
+	float: right;
+	
+	
+}
+
+#navright ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	margin: 0px 150px 10px 0px;
+	
+}
+#navright ul li{
+	float: left;
+	
+}
+
+#navright ul li a{
+text-decoration:none;
+
+
+}
+
+#nav form{
+display: inline-flex;
+margin-top: 13px;	
+
+}
+
+
+
+
+#nav .search{
+	border-radius:5px 0px 5px 5px;
+	margin: 0px;
+	border-right:0px ;
+	padding: 0px;
+	
+	width: 200px;
+}
+#nav .btn{
+background-color:transparent;
+border-left: 1px solid;
+	border-radius:5px 5px 5px 0px;
+	margin: 0px;
+	padding:0px ;
+	width: 30px;
+	margin-right: 60px;
+}
+
+.drop-down
+{
+  /*position: relative;*/ 
+ 
+    } 
+ 
+ li {
+    list-style: none
+}
+a{
+	
+	text-decoration:none;
+}
+a:hover{
+	
+	text-decoration:none;
+}
+.clr{
+	clear: both;
+	
+}
+.drop-down-content
+{
+    padding: 0px;
+    display: none;
+    
+    /*position: absolute;*/
+
+    }
+.drop-down-content li{
+	list-style: none;
+	float: none;
+	
+}
+  
+  .drop-down-content li:hover a
+  {
+    
+   color: white;
+	text-shadow: 1px 1px 0 #ff3f1a, -1px -1px 0 #00a7e0;
+    
+        }
+ .nav .drop-down:hover .drop-down-content
+ { 
+     display:block;      
+       }
+       
+
+.banner{
+ min-width:900px;
+ margin-top: 2px;
+ 
+ 
+}
+.banner_wrap{
+    height: 500px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+   	margin: 0px 8%;
+   	padding: 10px auto;
+}
+.banner_wrap .banner_img{
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+     position:relative;
+
+	
+}
+.banner_wrap .banner_img li{
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position:absolute;
+    
+    
+  
+}
+.banner_wrap .banner_img li img{
+    width: 100%;
+    height:100%;
+    
+}
+.banner_left{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    left: 48px;
+    background: #444;
+    cursor:pointer;
+    }
+    
+ .banner_left img {
+    width: 100%;
+}
+.banner_right{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background: #444;
+     cursor:pointer;
+
+}
+.banner_right img {
+    width: 100%;
+}
+
+
+#box{
+	width:1080px;
+	background-color:white;
+	margin: 0px auto;
+	padding: 0px;
+}
+#box p{
+	display: inline;
+	
+}
+#box li{
+	list-style: none;
+	
+	
+}
+.carton p{
+	display: inline;
+	float: left;
+	font-size:20px;
+	margin: 0px;
+	padding: 0px;	
+}
+.carton li{
+margin:5px auto;
+float: left;
+padding: 0px;
+}
+
+.carton ul {
+	display: inline;
+	
+}
+.carton{
+	height: 560px;
+	
+}
+
+#box .index{
+	height: 30px;
+	margin-left: 40px;
+}
+
+
+#box .card{
+	margin-left: 60px;
+	float: left;
+	margin-top:5px ;
+	margin-bottom: 10px;
+	
+}
+
+#box .card p{
+	font-size: 15px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+#box .card p:hover{
+	color:red;
+	
+}
+#box .carton img{
+	padding: px auto 5px;
+	width: 12rem;
+	height: 15rem;
+}
+.name{
+	position: absolute;
+	top:209px;
+	width:190px;
+	background-color:rgba(30, 30, 34, 0.5);
+	color: white;
+	height:30px;
+	
+}
+

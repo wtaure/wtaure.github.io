@@ -1,0 +1,8 @@
+.fix-right-bg{
+	background:url(../img/fix_right.png) repeat-y right;
+	position: fixed;
+    width: 33px;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+}
